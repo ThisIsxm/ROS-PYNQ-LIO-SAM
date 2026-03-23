@@ -4,10 +4,12 @@
 [![PYNQ](https://img.shields.io/badge/Framework-PYNQ-blue)](http://www.pynq.io/)
 [![Board](https://img.shields.io/badge/Hardware-AMD_KV260-red)](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit.html)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/IEEE-Paper-blue)](https://ieeexplore.ieee.org/abstract/document/11363894)
 
 **A ROS-PYNQ hardware-software co-design framework and FPGA-based feature extraction accelerator for LIO-SAM.**
 
-> **Paper Title:** A ROS-PYNQ Co-design Framework and Feature Extraction Accelerator for SLAM Acceleration  
+> **Paper Title:** [A ROS-PYNQ Co-design Framework and Feature Extraction Accelerator for SLAM Acceleration](https://ieeexplore.ieee.org/abstract/document/11363894)  
+> **Paper Link:** [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11363894)  
 > **Authors:** Ming Xia, Zhao Cang, Haocheng Li, Ziyuan Pu, He Li  
 > **Affiliation:** Southeast University, Nanjing, China
 
@@ -50,7 +52,7 @@ The system tightly integrates the Processing System (PS) and Programmable Logic 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/ThisIsxm/ROS-PYNQ-LIO-SAM.git
+    git clone [https://github.com/ThisIsxm/ROS-PYNQ-LIO-SAM.git](https://github.com/ThisIsxm/ROS-PYNQ-LIO-SAM.git)
     ```
 
 2.  **Build:**
@@ -66,3 +68,4 @@ The system tightly integrates the Processing System (PS) and Programmable Logic 
     source install/setup.bash
     ros2 launch lio_sam lo_sam_vlp16.launch.py
     ```
+    
